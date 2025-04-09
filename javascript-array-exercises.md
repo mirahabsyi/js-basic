@@ -54,7 +54,7 @@ fruits.unshift("Grape");
 Remove the last element from `fruits`.
 
 ```javascript
-// your code here
+fruits.pop(); // akan menghapus yang terakhir --> FIFO
 ```
 
 ---
