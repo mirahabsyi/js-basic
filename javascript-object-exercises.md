@@ -1,4 +1,3 @@
-
 # JavaScript Basic Object Exercises
 
 Practice working with objects in JavaScript with the following exercises.
@@ -9,14 +8,18 @@ Practice working with objects in JavaScript with the following exercises.
 
 Create an object called `person` with these properties:
 
-| Key   | Value       |
-|-------|-------------|
-| name  | "John"      |
-| age   | 25          |
-| job   | "Developer" |
+| Key  | Value       |
+| ---- | ----------- |
+| name | "John"      |
+| age  | 25          |
+| job  | "Developer" |
 
 ```javascript
-// your code here
+const person = {
+  name: "John",
+  age: 25,
+  job: "Developer",
+};
 ```
 
 ---
@@ -24,11 +27,13 @@ Create an object called `person` with these properties:
 ## 2. Access Object Properties
 
 Use `console.log` to display:
+
 - The person's name
 - The person's job
 
 ```javascript
-// your code here
+console.log(person.name);
+console.log(person.job);
 ```
 
 ---
@@ -67,13 +72,13 @@ Remove the `job` property from the `person` object.
 
 Create an object `student` with:
 
-| Key     | Value              |
-|---------|-------------------|
-| name    | "Alice"           |
-| grade   | 90                |
-| address | object with:      |
-| - city  | "Jakarta"         |
-| - country | "Indonesia"     |
+| Key       | Value        |
+| --------- | ------------ |
+| name      | "Alice"      |
+| grade     | 90           |
+| address   | object with: |
+| - city    | "Jakarta"    |
+| - country | "Indonesia"  |
 
 Print `student`'s city.
 
