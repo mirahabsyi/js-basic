@@ -64,7 +64,7 @@ fruits.pop(); // akan menghapus yang terakhir --> FIFO
 Remove the first element from `fruits`.
 
 ```javascript
-// your code here
+fruits.shift(); // Menghapus elemen pertama
 ```
 
 ---
